@@ -20,7 +20,7 @@ Started:  3:10pm 4/10/18
 and I went to http://bytesizematters.com/ and typed out more than 64KB of the character "A", Then I copied it and pasted it 
 into the Comment box afterwards I posted the comment.
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - [Link 1](https://klikki.fi/adv/wordpress2.html)
 
 1. (Required) Vulnerability Name or ID
   - [ ] Summary: 
