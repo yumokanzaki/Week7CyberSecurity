@@ -3,7 +3,8 @@
 # Project 7 - WordPress Pentesting
 
 Time spent: **X** hours spent in total
-Started:  3:10pm 4/10/18
+Started:  3:10pm 4/10/18 stopped at 10:00PM 4/10/18
+Started:  1:50pm 4/11:18 stopped at 
 
 > Objective: Find, analyze, recreate, and document **five vulnerabilities** affecting an old version of WordPress
 
@@ -22,11 +23,11 @@ into the Comment box afterwards I posted the comment. Sign into admin and viewed
   - [ ] Affected source code:
     - [Link 1](https://klikki.fi/adv/wordpress2.html)
 
-1. (Required) Vulnerability Name or ID
+1.  Vulnerability User Enumeration
   - [ ] Summary: 
-    - Vulnerability types:
+    - Vulnerability types: XSS
     - Tested in version: 4.2
-    - Fixed in version: 
+    - Fixed in version: 4.7.5
   - [ ] GIF Walkthrough: 
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
