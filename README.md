@@ -3,8 +3,10 @@
 # Project 7 - WordPress Pentesting
 
 Time spent: **X** hours spent in total
-Started:  3:10pm 4/10/18 stopped at 10:00PM 4/10/18
-Started:  1:50pm 4/11:18 stopped at 
+Started:  03:10pm 4/10/18 stopped at 10:00PM 4/10/18
+Started:  01:50pm 4/11:18 stopped at 03:20PM 4/11/18
+
+TOTAL TIME: 8 1/2 Hours
 
 > Objective: Find, analyze, recreate, and document **five vulnerabilities** affecting an old version of WordPress
 
@@ -28,20 +30,20 @@ into the Comment box afterwards I posted the comment. Sign into admin and viewed
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: Not Specified
-  - [ ] GIF Walkthrough:  REFER TO FirstExploit
+  - [ ] GIF Walkthrough:  REFER TO SecondExploit
   - [ ] Steps to recreate: Whenever the attacker is at the login screen, they can time is and series of names and a password incoreect or not and Wordpress will state whether or not the user exists
   - [ ] Affected source code:
     - [Link 2](https://dev-notes.eu/2016/09/preventing-user-enumeration-in-wordpress/)
 
-1. (Required) Vulnerability Name or ID
+1. Vulnerability 8111
   - [ ] Summary: 
-    - Vulnerability types:
+    - Vulnerability types: XSS
     - Tested in version: 4.2
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
+    - Fixed in version: 4.2.3
+  - [ ] GIF Walkthrough: REFER TO ThirdExploit
+  - [ ] Steps to recreate: Using an Author/Contributor level account paste <a href="[caption code=">]</a><a title=" onmouseover=alert('test')  ">link</a> in HTML edit mode in a post submit it and when the admin logs in and hovers over the link you her a pop up.
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - [Link 3](https://klikki.fi/adv/wordpress3.html)
 
 List any additional assets, such as scripts or files
 
