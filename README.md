@@ -27,11 +27,11 @@ into the Comment box afterwards I posted the comment. Sign into admin and viewed
   - [ ] Summary: 
     - Vulnerability types: XSS
     - Tested in version: 4.2
-    - Fixed in version: 4.7.5
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
+    - Fixed in version: Not Specified
+  - [ ] GIF Walkthrough:  REFER TO FirstExploit
+  - [ ] Steps to recreate: Whenever the attacker is at the login screen, they can time is and series of names and a password incoreect or not and Wordpress will state whether or not the user exists
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - [Link 2](https://dev-notes.eu/2016/09/preventing-user-enumeration-in-wordpress/)
 
 1. (Required) Vulnerability Name or ID
   - [ ] Summary: 
